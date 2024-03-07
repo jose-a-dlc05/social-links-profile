@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'InterVariable';
+	src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+	font-weight: 100 900;
+	font-style: oblique 0deg 10deg;
+}
+
+body {
+	height: 685px;
+	font-family: 'InterVariable', sans-serif;
+	min-width: 368px;
+	min-height: 685px;
+}
+
+.light-text {
+	font-family: 'InterVariable', sans-serif;
+	font-weight: 300;
+}
+
+.bold-text {
+	font-family: 'InterVariable', sans-serif;
+	font-weight: 800;
+}
+
+.bg-black {
+	background: #141414;
+}
+
+.bg-dark-grey {
+	background: #1f1f1f;
+}
+
+.bg-grey {
+	background: #333333;
+}
+
+.profile-wrapper {
+	min-width: 325px;
+}
+
+.profile-creds {
+	font-size: 1.4rem;
+}
+.profile-creds .location {
+	position: relative;
+	top: -11px;
+}
+
+.profile-creds .location {
+	font-size: 0.85rem;
+	color: #c4f82a;
+}
+
+.profile-description {
+	font-size: 0.85rem;
+}
+
+.border-none {
+	border: none;
+}
+
+.profile-links {
+	font-size: 0.95rem;
+}
+
+.profile-links .profile-link:hover {
+	cursor: pointer;
+	color: #333333 !important;
+	background-color: #c4f82a;
+}
